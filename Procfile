@@ -1,1 +1,1 @@
-worker : git clone https://github.com/Lexxy24/node_modules && npm i pm2 -g && pm2 install ffmpeg && pm2 start main.js && pm2 save && pm2 logs
+worker : npm i ffmpeg &&  npm i @adiwajshing/baileys@latest && npm i -g pm2 && pm2 start Hikari.js && pm2 save && pm2 logs
