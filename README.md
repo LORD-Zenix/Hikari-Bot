@@ -1,6 +1,19 @@
-# Hikari-Bo
+# Hikari-Bot
 
-# worker : node index
+## `Termux Install`
+
+```
+$ pkg update && pkg upgrade
+$ pkg install ffmpeg
+$ pkg install nodejs
+$ pkg install bash
+$ pkg install git
+$ pkg install imagemagick
+$ termux-setup-storage
+$ cd /sdcard
+$ cd Hikari-Bot
+$ node index
+```
 
 ## `ADD BUILDPACK`
 
